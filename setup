@@ -5,7 +5,7 @@ R=0
 DIRS=()
 
 #copy motd into /etc/
-cat /tmp/scenario-rogue-stranger/motd/message.txt >> /etc/motd
+cat /tmp/scenario-rogue-stranger/motd/intro-message.txt >> /etc/motd
 
 for FILE in /home/*; do
     if [[ -d $FILE ]]; then
