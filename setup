@@ -15,7 +15,7 @@ for FILE in /home/*; do
 done
 for studentDIR in "${DIRS[@]}"; do
     player=$(basename $studentDIR)
-    cp /tmp/scenario-rogue-stranger/motd/message.txt /$studentDIR/
+    cp /tmp/scenario-rogue-stranger/motd/intro-message.txt /$studentDIR/
 
     # Add an alias for all home directories
     cat /tmp/scenario-rogue-stranger/cd_alias >> /$studentDIR/.bashrc
