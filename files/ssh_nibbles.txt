@@ -1,0 +1,4 @@
+Did you know?
+
+Secure Shell or SSH is the cryptographic network protocol you used to access this machine! It can be used for secure remote command line use. But did you know you can also send commands over ssh to have them executed immediately? Check out the ssh man page for more fun options. You might find line 129 useful.
+
